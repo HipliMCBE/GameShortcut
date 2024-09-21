@@ -1,0 +1,27 @@
+name: GameShortcut
+main: HipliAI\GameShortcut\Main
+version: 1.0.0
+api: 5.0.0
+author: HipliAI
+
+commands:
+  gmc:
+    description: Passer en mode Créatif
+    usage: "/gmc"
+    permission: gameshortcut.command.gmc
+  gms:
+    description: Passer en mode Survie
+    usage: "/gms"
+    permission: gameshortcut.command.gms
+  gmsp:
+    description: Passer en mode Spectateur
+    usage: "/gmsp"
+    permission: gameshortcut.command.gmsp
+
+permissions:
+  gameshortcut.command.gmc:
+    default: op
+  gameshortcut.command.gms:
+    default: op
+  gameshortcut.command.gmsp:
+    default: op
